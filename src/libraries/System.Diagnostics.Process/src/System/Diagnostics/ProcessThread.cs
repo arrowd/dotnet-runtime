@@ -142,6 +142,7 @@ namespace System.Diagnostics
         /// <summary>Returns the time the associated thread was started.</summary>
         [SupportedOSPlatform("windows")]
         [SupportedOSPlatform("linux")]
+        [SupportedOSPlatform("freebsd")]
         public DateTime StartTime
         {
             get => GetStartTime();
